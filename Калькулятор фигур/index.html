@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<div class="wrapper">
+    <h1>Калькулятор фигур</h1>
+    <div class="columns">
+        <div class="block">
+            <div class="square"></div>
+            <p class="description">Данные для нахождения площади и периметра квадрата:</p>
+            <label>Длина стороны квадрата:<br><input type="number" placeholder="Введите число" class="square-side"></label>
+            <button class="square_calc">Рассчитать</button>
+        </div>
+        <div class="block">
+            <div class="rectangle"></div>
+            <p class="description">Данные для нахождения площади и периметра прямоугольника:</p>
+            <label>Длина стороны a:<br><input type="number" placeholder="Введите число" class="rec-side-a"></label>
+            <label>Длина стороны b:<br><input type="number" placeholder="Введите число" class="rec-side-b"></label>
+            <button class="rec_calc">Рассчитать</button>
+        </div>
+        <div class="block">
+            <div class="circle"></div>
+            <p class="description">Данные для нахождения площади круга и длины окружности:</p>
+            <label>Радиус:<br><input type="number" placeholder="Введите число" class="radius"></label>
+            <button class="circle_calc">Рассчитать</button>
+        </div>
+        <div class="block">
+            <div class="triangle"></div>
+            <p class="description">Данные для нахождения площади треугольника:</p>
+            <label>Длина стороны a:<br><input type="number" placeholder="Введите число" class="tri-side-a"></label>
+            <label>Длина стороны b:<br><input type="number" placeholder="Введите число" class="tri-side-b"></label>
+            <label>Длина стороны c:<br><input type="number" placeholder="Введите число" class="tri-side-c"></label>
+            <button class="tri_calc">Рассчитать</button>
+        </div>
+    </div>
+    <div class="answers">
+        <p class="answer square-answer"></p>
+        <p class="answer rec-answer"></p>
+        <p class="answer circle-answer"></p>
+        <p class="answer tri-answer"></p>
+    </div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

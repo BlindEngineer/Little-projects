@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    height: 100vh;
+    padding-top: 7vh;
+}
+
+.wrapper {
+    width: 80%;
+    min-width: 1000px;
+    /*height: 80vh;*/
+    min-height: 700px;
+    margin:0 auto;
+    padding: 2vh;
+    background-color: rgba(63,113,156,0.31);
+}
+
+h1 {
+ font-size: 3rem;
+    color: darkslategray;
+    padding: 15px;
+    margin: 20px auto 30px 50px;
+
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.answers {
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.answer {
+    width: 23%;
+    padding: 10px;
+    /*text-indent: 10px;*/
+    font-weight: bold;
+    white-space: pre-line;
+    line-height: 2rem;
+}
+
+.block {
+    width: 23%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {;
+    width: 120px;
+    height: 120px;
+    background-color: #2f4f4f;
+    margin: 0 auto 30px;
+    transition: 1s transform;
+    /*animation: shuffle 2s ;*/
+}
+
+.rectangle {;
+    width: 180px;
+    height: 90px;
+    background-color: #2f4f4f;
+    margin: 30px auto;
+    transition: 1s transform;
+}
+
+.circle {;
+    width: 120px;
+    height: 120px;
+    background-color: #2f4f4f;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+
+    transition: 1s transform;
+}
+
+.triangle {
+    font-size: 0; line-height: 0; width: 0;
+    border-bottom:120px solid #2f4f4f;
+    margin: 0 auto 30px;
+    border-left:60px solid transparent;
+    border-right:60px solid transparent;
+    transition: 1s transform;
+}
+
+.shuffle {
+    transform: scale(1.2) ;
+
+
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 30px;
+    height: 60px;
+    line-height: 1.4rem;
+}
+
+label {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+input {
+    height: 1.5rem;
+    cursor: pointer;
+}
